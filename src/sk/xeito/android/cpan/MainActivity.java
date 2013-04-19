@@ -67,6 +67,9 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 			list.setAdapter(adapter);
 			list.setVisibility(View.VISIBLE);
 			loadingView.setVisibility(View.GONE);
+
+			String subtitle = getString(R.string.main_subtitle, entries.size());
+			getActionBar().setSubtitle(subtitle);
 		}
 
 		private List<FeedEntry> doTask() throws Exception {
