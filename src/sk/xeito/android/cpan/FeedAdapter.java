@@ -31,7 +31,6 @@ public class FeedAdapter extends ArrayAdapter<FeedEntry> {
 		}
 
 		FeedEntry feedEntry = getItem(position);
-		Utils.printf("Displaying cell[%s]: %s", position, feedEntry);
 		holder.moduleView.setText(feedEntry.module);
 		holder.versionView.setText(feedEntry.version);
 		holder.authorView.setText(feedEntry.author);
