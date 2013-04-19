@@ -1,5 +1,6 @@
 package sk.xeito.android.cpan;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,6 +8,12 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -23,7 +30,9 @@ import android.widget.TextView;
 
 public class MainActivity extends BaseActivity implements OnItemClickListener {
 
+	private static final boolean DO_HTTP = true;
 	private static final String FILE = "01modules.mtime.rss";
+	private static final String URL = "http://www.cpan.org/modules/01modules.mtime.rss";
 
 	private TextView loadingView;
 	private ListView list;
@@ -72,11 +81,24 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 			getActionBar().setSubtitle(subtitle);
 		}
 
-		private List<FeedEntry> doTask() throws Exception {
+		private InputStream getFileStream() throws IOException {
 			AssetManager assets = getAssets();
 			InputStream input = assets.open(FILE);
+			return input;
+		}
+
+		private InputStream getHttpStream() throws ClientProtocolException, IOException {
+			HttpClient httpClient = new DefaultHttpClient();
+			HttpGet request = new HttpGet(URL);
+			HttpResponse response = httpClient.execute(request);
+			HttpEntity entity = response.getEntity();
+			return entity.getContent();
+		}
+
+		private List<FeedEntry> doTask() throws Exception {
 			XmlPullParserFactory parser = XmlPullParserFactory.newInstance();
 			XmlPullParser pullParser = parser.newPullParser();
+			InputStream input = DO_HTTP ? getHttpStream() : getFileStream();
 			pullParser.setInput(input, "utf-8");
 
 			Pattern regexp = Pattern.compile("^(.+)-([^-]+) : (\\S+)$");
@@ -121,6 +143,7 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 					break;
 				}
 			}
+			input.close();
 
 			Utils.printf("Found %s entries", feedEntries.size());
 			return feedEntries;
