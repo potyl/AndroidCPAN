@@ -1,6 +1,10 @@
 package sk.xeito.android.cpan;
 
+import android.net.Uri;
+
 public class FeedEntry {
+	private static final String URI_TEMPLATE = "http://search.cpan.org/perldoc?%s";
+
 	public String module;
 	public String version;
 	public String author;
@@ -8,6 +12,12 @@ public class FeedEntry {
 
 	public FeedEntry () {
 		// Empty
+	}
+
+	public String getCpanUrl() {
+		String cpanPackage = module.replace("-", "::");
+		String uriCpanPakacge = Uri.decode(cpanPackage);
+		return String.format(URI_TEMPLATE, uriCpanPakacge);
 	}
 
 	@Override

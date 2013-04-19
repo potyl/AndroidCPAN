@@ -10,19 +10,24 @@ import java.util.regex.Pattern;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import android.content.Intent;
 import android.content.res.AssetManager;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseActivity implements OnItemClickListener {
 
 	private static final String FILE = "01modules.mtime.rss";
 
 	private TextView loadingView;
 	private ListView list;
+	private FeedAdapter adapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +37,7 @@ public class MainActivity extends BaseActivity {
 		loadingView = (TextView) findViewById(R.id.loading_rss);
 		list = (ListView) findViewById(R.id.rss_list);
 		list.setVisibility(View.GONE);
+		list.setOnItemClickListener(this);
 
 		// Load the RSS feed
 		RssLoader task = new RssLoader();
@@ -56,7 +62,7 @@ public class MainActivity extends BaseActivity {
 
 		@Override
 		protected void onPostExecute(List<FeedEntry> entries) {
-			FeedAdapter adapter = new FeedAdapter(MainActivity.this);
+			adapter = new FeedAdapter(MainActivity.this);
 			adapter.addAll(entries);
 			list.setAdapter(adapter);
 			list.setVisibility(View.VISIBLE);
@@ -116,5 +122,13 @@ public class MainActivity extends BaseActivity {
 			Utils.printf("Found %s entries", feedEntries.size());
 			return feedEntries;
 		}
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+		FeedEntry feedEntry = adapter.getItem(position);
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.setData(Uri.parse(feedEntry.getCpanUrl()));
+		startActivity(intent);
 	}
 }
