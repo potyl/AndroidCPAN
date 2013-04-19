@@ -10,14 +10,9 @@ import java.util.regex.Pattern;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -48,7 +43,7 @@ public class MainActivity extends BaseActivity {
 				entries = doTask();
 			}
 			catch (Exception e) {
-				printf("Failed to run async: %s", e.toString());
+				Utils.printf("Failed to run async: %s", e.toString());
 				entries = Collections.emptyList();
 			}
 
@@ -80,7 +75,6 @@ public class MainActivity extends BaseActivity {
 				int type = pullParser.next();
 				switch (type) {
 					case XmlPullParser.END_DOCUMENT:
-						printf("End of document");
 					break LOOP;
 
 					case XmlPullParser.START_TAG:
@@ -105,14 +99,8 @@ public class MainActivity extends BaseActivity {
 				}
 			}
 
-			printf("Found %s entries", feedEntries.size());
+			Utils.printf("Found %s entries", feedEntries.size());
 			return feedEntries;
 		}
-	}
-
-
-	static void printf(String format, Object ... args) {
-		String message = String.format(format, args);
-		Log.d("app", message);
 	}
 }
