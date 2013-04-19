@@ -1,0 +1,1215 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+><channel>
+<title>Recent CPAN Uploads</title>
+<description>The 150 most recent modules uploaded to CPAN</description>
+<link>http://www.cpan.org/modules/01modules.mtime.html</link>
+<language>en</language>
+<sy:updateFrequency>3</sy:updateFrequency>
+<sy:updatePeriod>daily</sy:updatePeriod>
+<sy:updateBase>1970-01-01T12:24+00:00</sy:updateBase>
+<ttl>480</ttl>
+<webMaster>cpan&#64;perl.org</webMaster>
+
+<item>
+  <title>MongoDB-0.700.0 : Friedo</title>
+  <link>http://www.cpan.org/modules/by-authors/id/F/FR/FRIEDO/MongoDB-0.700.0.tar.gz</link>
+  <description>Friedo uploaded F/FR/FRIEDO/MongoDB-0.700.0.tar.gz (1.4M) on 18 Apr 2013</description>
+  <guid isPermaLink="false">MongoDB-0.700.0.tar.gz</guid>
+  <comments>http://search.cpan.org/~friedo/MongoDB/</comments>
+</item>
+
+<item>
+  <title>AnyEvent-Fork-0.7 : Mlehmann</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/ML/MLEHMANN/AnyEvent-Fork-0.7.tar.gz</link>
+  <description>Mlehmann uploaded M/ML/MLEHMANN/AnyEvent-Fork-0.7.tar.gz (24k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">AnyEvent-Fork-0.7.tar.gz</guid>
+  <comments>http://search.cpan.org/~mlehmann/AnyEvent/</comments>
+</item>
+
+<item>
+  <title>AnyEvent-Fork-RPC-0.1 : Mlehmann</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/ML/MLEHMANN/AnyEvent-Fork-RPC-0.1.tar.gz</link>
+  <description>Mlehmann uploaded M/ML/MLEHMANN/AnyEvent-Fork-RPC-0.1.tar.gz (14k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">AnyEvent-Fork-RPC-0.1.tar.gz</guid>
+  <comments>http://search.cpan.org/~mlehmann/AnyEvent/</comments>
+</item>
+
+<item>
+  <title>Net-DNS-ZoneFile-Fast-1.20 : Hardaker</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HA/HARDAKER/Net-DNS-ZoneFile-Fast-1.20.tar.gz</link>
+  <description>Hardaker uploaded H/HA/HARDAKER/Net-DNS-ZoneFile-Fast-1.20.tar.gz (20k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Net-DNS-ZoneFile-Fast-1.20.tar.gz</guid>
+  <comments>http://search.cpan.org/~hardaker/Net/</comments>
+</item>
+
+<item>
+  <title>Debug-Easy-0.01 : Debashish</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DE/DEBASHISH/Debug-Easy-0.01.tar.gz</link>
+  <description>Debashish uploaded D/DE/DEBASHISH/Debug-Easy-0.01.tar.gz (4k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Debug-Easy-0.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~debashish/Debug/</comments>
+</item>
+
+<item>
+  <title>Net-DNS-ToolKit-0.47 : Miker</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MIKER/Net-DNS-ToolKit-0.47.tar.gz</link>
+  <description>Miker uploaded M/MI/MIKER/Net-DNS-ToolKit-0.47.tar.gz (239k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Net-DNS-ToolKit-0.47.tar.gz</guid>
+  <comments>http://search.cpan.org/~miker/Net/</comments>
+</item>
+
+<item>
+  <title>Test-DescribeMe-0.003 : Wolfsage</title>
+  <link>http://www.cpan.org/modules/by-authors/id/W/WO/WOLFSAGE/Test-DescribeMe-0.003.tar.gz</link>
+  <description>Wolfsage uploaded W/WO/WOLFSAGE/Test-DescribeMe-0.003.tar.gz (10k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Test-DescribeMe-0.003.tar.gz</guid>
+  <comments>http://search.cpan.org/~wolfsage/Test/</comments>
+</item>
+
+<item>
+  <title>Test-Settings-0.002 : Wolfsage</title>
+  <link>http://www.cpan.org/modules/by-authors/id/W/WO/WOLFSAGE/Test-Settings-0.002.tar.gz</link>
+  <description>Wolfsage uploaded W/WO/WOLFSAGE/Test-Settings-0.002.tar.gz (12k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Test-Settings-0.002.tar.gz</guid>
+  <comments>http://search.cpan.org/~wolfsage/Test/</comments>
+</item>
+
+<item>
+  <title>Algorithm-MOS-0.001 : Adamba</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AD/ADAMBA/Algorithm-MOS-0.001.tar.gz</link>
+  <description>Adamba uploaded A/AD/ADAMBA/Algorithm-MOS-0.001.tar.gz (8k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Algorithm-MOS-0.001.tar.gz</guid>
+  <comments>http://search.cpan.org/~adamba/Algorithm/</comments>
+</item>
+
+<item>
+  <title>Log-Log4perl-Tiny-1.2.1 : Polettix</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PO/POLETTIX/Log-Log4perl-Tiny-1.2.1.tar.gz</link>
+  <description>Polettix uploaded P/PO/POLETTIX/Log-Log4perl-Tiny-1.2.1.tar.gz (21k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Log-Log4perl-Tiny-1.2.1.tar.gz</guid>
+  <comments>http://search.cpan.org/~polettix/Log/</comments>
+</item>
+
+<item>
+  <title>Marpa-R2-2.052000 : Jkegl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JK/JKEGL/Marpa-R2-2.052000.tar.gz</link>
+  <description>Jkegl uploaded J/JK/JKEGL/Marpa-R2-2.052000.tar.gz (1.5M) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Marpa-R2-2.052000.tar.gz</guid>
+  <comments>http://search.cpan.org/~jkegl/Marpa/</comments>
+</item>
+
+<item>
+  <title>Drogo-0.16 : Mjflick</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MJ/MJFLICK/Drogo-0.16.tar.gz</link>
+  <description>Mjflick uploaded M/MJ/MJFLICK/Drogo-0.16.tar.gz (46k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Drogo-0.16.tar.gz</guid>
+  <comments>http://search.cpan.org/~mjflick/Drogo/</comments>
+</item>
+
+<item>
+  <title>HTML-FormWidgets-v0.18.391 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/HTML-FormWidgets-v0.18.391.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/html-formwidgets/HTML-FormWidgets-v0.18.391.tar.gz (262k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">HTML-FormWidgets-v0.18.391.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/HTML/</comments>
+</item>
+
+<item>
+  <title>Parallel-Jobs-0.09 : Jik</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JI/JIK/Parallel-Jobs-0.09.tar.gz</link>
+  <description>Jik uploaded J/JI/JIK/Parallel-Jobs-0.09.tar.gz (7k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Parallel-Jobs-0.09.tar.gz</guid>
+  <comments>http://search.cpan.org/~jik/Parallel/</comments>
+</item>
+
+<item>
+  <title>HTML-Video-Embed-0.013000 : Nobody</title>
+  <link>http://www.cpan.org/modules/by-authors/id/N/NO/NOBODY/HTML-Video-Embed-0.013000.tar.gz</link>
+  <description>Nobody uploaded N/NO/NOBODY/HTML-Video-Embed-0.013000.tar.gz (32k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">HTML-Video-Embed-0.013000.tar.gz</guid>
+  <comments>http://search.cpan.org/~nobody/HTML/</comments>
+</item>
+
+<item>
+  <title>CryptX-0.005 : Mik</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MIK/CryptX-0.005.tar.gz</link>
+  <description>Mik uploaded M/MI/MIK/CryptX-0.005.tar.gz (1.0M) on 18 Apr 2013</description>
+  <guid isPermaLink="false">CryptX-0.005.tar.gz</guid>
+  <comments>http://search.cpan.org/~mik/Crypt/</comments>
+</item>
+
+<item>
+  <title>NG-0.001 : Chenryn</title>
+  <link>http://www.cpan.org/modules/by-authors/id/C/CH/CHENRYN/NG-0.001.tar.gz</link>
+  <description>Chenryn uploaded C/CH/CHENRYN/NG/NG-0.001.tar.gz (19k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">NG-0.001.tar.gz</guid>
+  <comments>http://search.cpan.org/~chenryn/Log/</comments>
+</item>
+
+<item>
+  <title>Bio-Phylo-0.54 : Rvosa</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RV/RVOSA/Bio-Phylo-0.54.tar.gz</link>
+  <description>Rvosa uploaded R/RV/RVOSA/Bio-Phylo-0.54.tar.gz (400k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Bio-Phylo-0.54.tar.gz</guid>
+  <comments>http://search.cpan.org/~rvosa/Bio/</comments>
+</item>
+
+<item>
+  <title>AnyEvent-Semaphore-0.01 : Salva</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SA/SALVA/AnyEvent-Semaphore-0.01.tar.gz</link>
+  <description>Salva uploaded S/SA/SALVA/AnyEvent-Semaphore-0.01.tar.gz (3k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">AnyEvent-Semaphore-0.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~salva/AnyEvent/</comments>
+</item>
+
+<item>
+  <title>Sys-Path-0.13 : Jkutej</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JK/JKUTEJ/Sys-Path-0.13.tar.gz</link>
+  <description>Jkutej uploaded J/JK/JKUTEJ/Sys-Path-0.13.tar.gz (15k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Sys-Path-0.13.tar.gz</guid>
+  <comments>http://search.cpan.org/~jkutej/Sys/</comments>
+</item>
+
+<item>
+  <title>Amon2-3.79 : Tokuhirom</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOKUHIROM/Amon2-3.79.tar.gz</link>
+  <description>Tokuhirom uploaded T/TO/TOKUHIROM/Amon2-3.79.tar.gz (245k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Amon2-3.79.tar.gz</guid>
+  <comments>http://search.cpan.org/~tokuhirom/Amon2/</comments>
+</item>
+
+<item>
+  <title>Data-Unixish-1.32 : Sharyanto</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SH/SHARYANTO/Data-Unixish-1.32.tar.gz</link>
+  <description>Sharyanto uploaded S/SH/SHARYANTO/Data-Unixish-1.32.tar.gz (27k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Data-Unixish-1.32.tar.gz</guid>
+  <comments>http://search.cpan.org/~sharyanto/Data/</comments>
+</item>
+
+<item>
+  <title>App-cpanminus-reporter-0.06 : Garu</title>
+  <link>http://www.cpan.org/modules/by-authors/id/G/GA/GARU/App-cpanminus-reporter-0.06.tar.gz</link>
+  <description>Garu uploaded G/GA/GARU/App-cpanminus-reporter-0.06.tar.gz (8k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">App-cpanminus-reporter-0.06.tar.gz</guid>
+  <comments>http://search.cpan.org/~garu/App/</comments>
+</item>
+
+<item>
+  <title>Module-ExtractUse-0.30 : Domm</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DO/DOMM/Module-ExtractUse-0.30.tar.gz</link>
+  <description>Domm uploaded D/DO/DOMM/Module-ExtractUse-0.30.tar.gz (28k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Module-ExtractUse-0.30.tar.gz</guid>
+  <comments>http://search.cpan.org/~domm/Module/</comments>
+</item>
+
+<item>
+  <title>Text-WideChar-Util-0.03 : Sharyanto</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SH/SHARYANTO/Text-WideChar-Util-0.03.tar.gz</link>
+  <description>Sharyanto uploaded S/SH/SHARYANTO/Text-WideChar-Util-0.03.tar.gz (14k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Text-WideChar-Util-0.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~sharyanto/Text/</comments>
+</item>
+
+<item>
+  <title>CPAN-Testers-Common-Client-0.03 : Garu</title>
+  <link>http://www.cpan.org/modules/by-authors/id/G/GA/GARU/CPAN-Testers-Common-Client-0.03.tar.gz</link>
+  <description>Garu uploaded G/GA/GARU/CPAN-Testers-Common-Client-0.03.tar.gz (18k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">CPAN-Testers-Common-Client-0.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~garu/CPAN/</comments>
+</item>
+
+<item>
+  <title>Mojolicious-Plugin-Libravatar-1.08 : Heytrav</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HE/HEYTRAV/Mojolicious-Plugin-Libravatar-1.08.tar.gz</link>
+  <description>Heytrav uploaded H/HE/HEYTRAV/Mojolicious-Plugin-Libravatar-1.08.tar.gz (3k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Mojolicious-Plugin-Libravatar-1.08.tar.gz</guid>
+  <comments>http://search.cpan.org/~heytrav/Mojolicious/</comments>
+</item>
+
+<item>
+  <title>ack-2.00 : Petdance</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PE/PETDANCE/ack-2.00.tar.gz</link>
+  <description>Petdance uploaded P/PE/PETDANCE/ack-2.00.tar.gz (181k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">ack-2.00.tar.gz</guid>
+  <comments>http://search.cpan.org/~petdance/App/</comments>
+</item>
+
+<item>
+  <title>Spellunker-v0.0.11 : Tokuhirom</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOKUHIROM/Spellunker-v0.0.11.tar.gz</link>
+  <description>Tokuhirom uploaded T/TO/TOKUHIROM/Spellunker-v0.0.11.tar.gz (462k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Spellunker-v0.0.11.tar.gz</guid>
+  <comments>http://search.cpan.org/~tokuhirom/Test/</comments>
+</item>
+
+<item>
+  <title>Math-LongDouble-0.03 : Sisyphus</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SI/SISYPHUS/Math-LongDouble-0.03.tar.gz</link>
+  <description>Sisyphus uploaded S/SI/SISYPHUS/Math-LongDouble-0.03.tar.gz (11k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Math-LongDouble-0.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~sisyphus/Math/</comments>
+</item>
+
+<item>
+  <title>mod_perl-2.0.8 : Phred</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PH/PHRED/mod_perl-2.0.8.tar.gz</link>
+  <description>Phred uploaded P/PH/PHRED/mod_perl-2.0.8.tar.gz (3.6M) on 18 Apr 2013</description>
+  <guid isPermaLink="false">mod_perl-2.0.8.tar.gz</guid>
+  <comments>http://search.cpan.org/~phred/Apache2/</comments>
+</item>
+
+<item>
+  <title>AnyEvent-FIFO-0.00003 : Dmaki</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DM/DMAKI/AnyEvent-FIFO-0.00003.tar.gz</link>
+  <description>Dmaki uploaded D/DM/DMAKI/AnyEvent-FIFO-0.00003.tar.gz (11k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">AnyEvent-FIFO-0.00003.tar.gz</guid>
+  <comments>http://search.cpan.org/~dmaki/AnyEvent/</comments>
+</item>
+
+<item>
+  <title>Speech-Speakup-1.02 : Pjb</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJB/Speech-Speakup-1.02.tar.gz</link>
+  <description>Pjb uploaded P/PJ/PJB/Speech-Speakup-1.02.tar.gz (7k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">Speech-Speakup-1.02.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjb/Speech/</comments>
+</item>
+
+<item>
+  <title>UMLS-Similarity-1.29 : Btmcinnes</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BT/BTMCINNES/UMLS-Similarity-1.29.tar.gz</link>
+  <description>Btmcinnes uploaded B/BT/BTMCINNES/UMLS-Similarity-1.29.tar.gz (11.2M) on 18 Apr 2013</description>
+  <guid isPermaLink="false">UMLS-Similarity-1.29.tar.gz</guid>
+  <comments>http://search.cpan.org/~btmcinnes/UMLS/</comments>
+</item>
+
+<item>
+  <title>MongoDBx-Queue-0.004 : Dagolden</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/MongoDBx-Queue-0.004.tar.gz</link>
+  <description>Dagolden uploaded D/DA/DAGOLDEN/MongoDBx-Queue-0.004.tar.gz (16k) on 18 Apr 2013</description>
+  <guid isPermaLink="false">MongoDBx-Queue-0.004.tar.gz</guid>
+  <comments>http://search.cpan.org/~dagolden/MongoDBx/</comments>
+</item>
+
+<item>
+  <title>File-Flock-2013.08 : Muir</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MU/MUIR/File-Flock-2013.08.tar.gz</link>
+  <description>Muir uploaded M/MU/MUIR/modules/File-Flock-2013.08.tar.gz (12k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">File-Flock-2013.08.tar.gz</guid>
+  <comments>http://search.cpan.org/~muir/File/</comments>
+</item>
+
+<item>
+  <title>VMware-vCloud-v2.380 : Bennie</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BE/BENNIE/VMware-vCloud-v2.380.tar.gz</link>
+  <description>Bennie uploaded B/BE/BENNIE/VMware-vCloud-v2.380.tar.gz (23k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">VMware-vCloud-v2.380.tar.gz</guid>
+  <comments>http://search.cpan.org/~bennie/VMware/</comments>
+</item>
+
+<item>
+  <title>App-DuckPAN-0.069 : Getty</title>
+  <link>http://www.cpan.org/modules/by-authors/id/G/GE/GETTY/App-DuckPAN-0.069.tar.gz</link>
+  <description>Getty uploaded G/GE/GETTY/App-DuckPAN-0.069.tar.gz (37k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">App-DuckPAN-0.069.tar.gz</guid>
+  <comments>http://search.cpan.org/~getty/App/</comments>
+</item>
+
+<item>
+  <title>Dist-Zilla-Plugin-Test-CPAN-Changes-0.008 : Doherty</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DO/DOHERTY/Dist-Zilla-Plugin-Test-CPAN-Changes-0.008.tar.gz</link>
+  <description>Doherty uploaded D/DO/DOHERTY/Dist-Zilla-Plugin-Test-CPAN-Changes-0.008.tar.gz (13k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Dist-Zilla-Plugin-Test-CPAN-Changes-0.008.tar.gz</guid>
+  <comments>http://search.cpan.org/~doherty/Dist/</comments>
+</item>
+
+<item>
+  <title>App-DuckDuckGo-0.008 : Getty</title>
+  <link>http://www.cpan.org/modules/by-authors/id/G/GE/GETTY/App-DuckDuckGo-0.008.tar.gz</link>
+  <description>Getty uploaded G/GE/GETTY/App-DuckDuckGo-0.008.tar.gz (12k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">App-DuckDuckGo-0.008.tar.gz</guid>
+  <comments>http://search.cpan.org/~getty/App/</comments>
+</item>
+
+<item>
+  <title>WWW-DuckDuckGo-0.015 : Getty</title>
+  <link>http://www.cpan.org/modules/by-authors/id/G/GE/GETTY/WWW-DuckDuckGo-0.015.tar.gz</link>
+  <description>Getty uploaded G/GE/GETTY/WWW-DuckDuckGo-0.015.tar.gz (15k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">WWW-DuckDuckGo-0.015.tar.gz</guid>
+  <comments>http://search.cpan.org/~getty/WWW/</comments>
+</item>
+
+<item>
+  <title>UMLS-Interface-1.33 : Btmcinnes</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BT/BTMCINNES/UMLS-Interface-1.33.tar.gz</link>
+  <description>Btmcinnes uploaded B/BT/BTMCINNES/UMLS-Interface-1.33.tar.gz (5.9M) on 17 Apr 2013</description>
+  <guid isPermaLink="false">UMLS-Interface-1.33.tar.gz</guid>
+  <comments>http://search.cpan.org/~btmcinnes/UMLS/</comments>
+</item>
+
+<item>
+  <title>UMLS-SenseRelate-0.23 : Btmcinnes</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BT/BTMCINNES/UMLS-SenseRelate-0.23.tar.gz</link>
+  <description>Btmcinnes uploaded B/BT/BTMCINNES/UMLS-SenseRelate-0.23.tar.gz (447k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">UMLS-SenseRelate-0.23.tar.gz</guid>
+  <comments>http://search.cpan.org/~btmcinnes/UMLS/</comments>
+</item>
+
+<item>
+  <title>Net-MW-API-0.01 : Swuecho</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SW/SWUECHO/Net-MW-API-0.01.tar.gz</link>
+  <description>Swuecho uploaded S/SW/SWUECHO/Net-MW-API-0.01.tar.gz (28k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Net-MW-API-0.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~swuecho/Net/</comments>
+</item>
+
+<item>
+  <title>Data-Validation-v0.10.179 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/Data-Validation-v0.10.179.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/data-validation/Data-Validation-v0.10.179.tar.gz (29k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Data-Validation-v0.10.179.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/Data/</comments>
+</item>
+
+<item>
+  <title>Config-Model-2.034 : Ddumont</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DD/DDUMONT/Config-Model-2.034.tar.gz</link>
+  <description>Ddumont uploaded D/DD/DDUMONT/Config-Model-2.034.tar.gz (368k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Config-Model-2.034.tar.gz</guid>
+  <comments>http://search.cpan.org/~ddumont/Config/</comments>
+</item>
+
+<item>
+  <title>Kelp-0.217 : Minimal</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MINIMAL/Kelp-0.217.tar.gz</link>
+  <description>Minimal uploaded M/MI/MINIMAL/Kelp-0.217.tar.gz (69k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Kelp-0.217.tar.gz</guid>
+  <comments>http://search.cpan.org/~minimal/Kelp/</comments>
+</item>
+
+<item>
+  <title>jQuery-File-Upload-0.16 : Srchulo</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SR/SRCHULO/jQuery-File-Upload-0.16.tar.gz</link>
+  <description>Srchulo uploaded S/SR/SRCHULO/jQuery-File-Upload-0.16.tar.gz (20k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">jQuery-File-Upload-0.16.tar.gz</guid>
+  <comments>http://search.cpan.org/~srchulo/jQuery/</comments>
+</item>
+
+<item>
+  <title>Storm-0.240 : Jhallock</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JH/JHALLOCK/Storm-0.240.tar.gz</link>
+  <description>Jhallock uploaded J/JH/JHALLOCK/Storm-0.240.tar.gz (45k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Storm-0.240.tar.gz</guid>
+  <comments>http://search.cpan.org/~jhallock/Storm/</comments>
+</item>
+
+<item>
+  <title>DBD-XBase-1.04 : Janpaz</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JA/JANPAZ/DBD-XBase-1.04.tar.gz</link>
+  <description>Janpaz uploaded J/JA/JANPAZ/DBD-XBase-1.04.tar.gz (110k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">DBD-XBase-1.04.tar.gz</guid>
+  <comments>http://search.cpan.org/~janpaz/XBase/</comments>
+</item>
+
+<item>
+  <title>Data-File-Map-0.02.1 : Jhallock</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JH/JHALLOCK/Data-File-Map-0.02.1.tar.gz</link>
+  <description>Jhallock uploaded J/JH/JHALLOCK/Data-File-Map-0.02.1.tar.gz (8k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Data-File-Map-0.02.1.tar.gz</guid>
+  <comments>http://search.cpan.org/~jhallock/Data/</comments>
+</item>
+
+<item>
+  <title>Gapp-App-0.007 : Jhallock</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JH/JHALLOCK/Gapp-App-0.007.tar.gz</link>
+  <description>Jhallock uploaded J/JH/JHALLOCK/Gapp-App-0.007.tar.gz (21k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Gapp-App-0.007.tar.gz</guid>
+  <comments>http://search.cpan.org/~jhallock/Gapp/</comments>
+</item>
+
+<item>
+  <title>CPAN-Mini-Inject-0.32 : Mithaldu</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MITHALDU/CPAN-Mini-Inject-0.32.tar.gz</link>
+  <description>Mithaldu uploaded M/MI/MITHALDU/CPAN-Mini-Inject-0.32.tar.gz (26k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">CPAN-Mini-Inject-0.32.tar.gz</guid>
+  <comments>http://search.cpan.org/~mithaldu/CPAN/</comments>
+</item>
+
+<item>
+  <title>HTTP-Tiny-0.029 : Dagolden</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/HTTP-Tiny-0.029.tar.gz</link>
+  <description>Dagolden uploaded D/DA/DAGOLDEN/HTTP-Tiny-0.029.tar.gz (45k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">HTTP-Tiny-0.029.tar.gz</guid>
+  <comments>http://search.cpan.org/~dagolden/HTTP/</comments>
+</item>
+
+<item>
+  <title>MooseX-Workers-0.18 : Rkitover</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RK/RKITOVER/MooseX-Workers-0.18.tar.gz</link>
+  <description>Rkitover uploaded R/RK/RKITOVER/MooseX-Workers-0.18.tar.gz (250k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">MooseX-Workers-0.18.tar.gz</guid>
+  <comments>http://search.cpan.org/~rkitover/MooseX/</comments>
+</item>
+
+<item>
+  <title>MooX-StrictConstructor-0.005 : Hartzell</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HA/HARTZELL/MooX-StrictConstructor-0.005.tar.gz</link>
+  <description>Hartzell uploaded H/HA/HARTZELL/MooX-StrictConstructor-0.005.tar.gz (14k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">MooX-StrictConstructor-0.005.tar.gz</guid>
+  <comments>http://search.cpan.org/~hartzell/MooX/</comments>
+</item>
+
+<item>
+  <title>Net-IP-Match-Bin-0.07 : Tomo</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOMO/Net-IP-Match-Bin-0.07.tar.gz</link>
+  <description>Tomo uploaded T/TO/TOMO/src/Net-IP-Match-Bin-0.07.tar.gz (39k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Net-IP-Match-Bin-0.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~tomo/Net/</comments>
+</item>
+
+<item>
+  <title>Net-Amazon-Recommended-v0.0.3 : Yakex</title>
+  <link>http://www.cpan.org/modules/by-authors/id/Y/YA/YAKEX/Net-Amazon-Recommended-v0.0.3.tar.gz</link>
+  <description>Yakex uploaded Y/YA/YAKEX/Net-Amazon-Recommended-v0.0.3.tar.gz (15k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Net-Amazon-Recommended-v0.0.3.tar.gz</guid>
+  <comments>http://search.cpan.org/~yakex/Net/</comments>
+</item>
+
+<item>
+  <title>Debug-Client-0.25 : Bowtie</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BO/BOWTIE/Debug-Client-0.25.tar.gz</link>
+  <description>Bowtie uploaded B/BO/BOWTIE/Debug-Client-0.25.tar.gz (40k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Debug-Client-0.25.tar.gz</guid>
+  <comments>http://search.cpan.org/~bowtie/Debug/</comments>
+</item>
+
+<item>
+  <title>DateTime-1.03 : Drolsky</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DR/DROLSKY/DateTime-1.03.tar.gz</link>
+  <description>Drolsky uploaded D/DR/DROLSKY/DateTime-1.03.tar.gz (170k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">DateTime-1.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~drolsky/DateTime/</comments>
+</item>
+
+<item>
+  <title>IO-Socket-SSL-1.86 : Sullr</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SU/SULLR/IO-Socket-SSL-1.86.tar.gz</link>
+  <description>Sullr uploaded S/SU/SULLR/IO-Socket-SSL-1.86.tar.gz (79k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">IO-Socket-SSL-1.86.tar.gz</guid>
+  <comments>http://search.cpan.org/~sullr/IO/</comments>
+</item>
+
+<item>
+  <title>Net-Whois-RIPE-2.003 : Aassad</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AA/AASSAD/Net-Whois-RIPE-2.003.tar.gz</link>
+  <description>Aassad uploaded A/AA/AASSAD/Net-Whois-RIPE-2.003.tar.gz (55k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Net-Whois-RIPE-2.003.tar.gz</guid>
+  <comments>http://search.cpan.org/~aassad/Net/</comments>
+</item>
+
+<item>
+  <title>HTML-Content-Extractor-0.15 : Lastmac</title>
+  <link>http://www.cpan.org/modules/by-authors/id/L/LA/LASTMAC/HTML-Content-Extractor-0.15.tar.gz</link>
+  <description>Lastmac uploaded L/LA/LASTMAC/HTML-Content-Extractor-0.15.tar.gz (30k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">HTML-Content-Extractor-0.15.tar.gz</guid>
+  <comments>http://search.cpan.org/~lastmac/HTML/</comments>
+</item>
+
+<item>
+  <title>Term-Choose-1.033 : Kuerbis</title>
+  <link>http://www.cpan.org/modules/by-authors/id/K/KU/KUERBIS/Term-Choose-1.033.tar.gz</link>
+  <description>Kuerbis uploaded K/KU/KUERBIS/Term-Choose-1.033.tar.gz (51k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Term-Choose-1.033.tar.gz</guid>
+  <comments>http://search.cpan.org/~kuerbis/Term/</comments>
+</item>
+
+<item>
+  <title>Net-DNS-Lite-0.10 : Kazuho</title>
+  <link>http://www.cpan.org/modules/by-authors/id/K/KA/KAZUHO/Net-DNS-Lite-0.10.tar.gz</link>
+  <description>Kazuho uploaded K/KA/KAZUHO/Net-DNS-Lite-0.10.tar.gz (25k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Net-DNS-Lite-0.10.tar.gz</guid>
+  <comments>http://search.cpan.org/~kazuho/Net/</comments>
+</item>
+
+<item>
+  <title>SQL-Format-0.13 : Xaicron</title>
+  <link>http://www.cpan.org/modules/by-authors/id/X/XA/XAICRON/SQL-Format-0.13.tar.gz</link>
+  <description>Xaicron uploaded X/XA/XAICRON/SQL-Format-0.13.tar.gz (28k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">SQL-Format-0.13.tar.gz</guid>
+  <comments>http://search.cpan.org/~xaicron/SQL/</comments>
+</item>
+
+<item>
+  <title>Furl-2.13 : Tokuhirom</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOKUHIROM/Furl-2.13.tar.gz</link>
+  <description>Tokuhirom uploaded T/TO/TOKUHIROM/Furl-2.13.tar.gz (58k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Furl-2.13.tar.gz</guid>
+  <comments>http://search.cpan.org/~tokuhirom/Furl/</comments>
+</item>
+
+<item>
+  <title>HTML-Detergent-0.03 : Dorian</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DO/DORIAN/HTML-Detergent-0.03.tar.gz</link>
+  <description>Dorian uploaded D/DO/DORIAN/HTML-Detergent-0.03.tar.gz (38k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">HTML-Detergent-0.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~dorian/HTML/</comments>
+</item>
+
+<item>
+  <title>Alien-SDL-1.440 : Froggs</title>
+  <link>http://www.cpan.org/modules/by-authors/id/F/FR/FROGGS/Alien-SDL-1.440.tar.gz</link>
+  <description>Froggs uploaded F/FR/FROGGS/Alien-SDL-1.440.tar.gz (338k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Alien-SDL-1.440.tar.gz</guid>
+  <comments>http://search.cpan.org/~froggs/Alien/</comments>
+</item>
+
+<item>
+  <title>Crypt-ScryptKDF-0.005 : Mik</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MIK/Crypt-ScryptKDF-0.005.tar.gz</link>
+  <description>Mik uploaded M/MI/MIK/Crypt-ScryptKDF-0.005.tar.gz (14k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Crypt-ScryptKDF-0.005.tar.gz</guid>
+  <comments>http://search.cpan.org/~mik/Crypt/</comments>
+</item>
+
+<item>
+  <title>DBD-Unify-0.83 : Hmbrand</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HM/HMBRAND/DBD-Unify-0.83.tgz</link>
+  <description>Hmbrand uploaded H/HM/HMBRAND/DBD-Unify-0.83.tgz (101k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">DBD-Unify-0.83.tgz</guid>
+  <comments>http://search.cpan.org/~hmbrand/DBD/</comments>
+</item>
+
+<item>
+  <title>REST-Neo4p-0.2100 : Majensen</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MA/MAJENSEN/REST-Neo4p-0.2100.tar.gz</link>
+  <description>Majensen uploaded M/MA/MAJENSEN/REST-Neo4p-0.2100.tar.gz (71k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">REST-Neo4p-0.2100.tar.gz</guid>
+  <comments>http://search.cpan.org/~majensen/REST/</comments>
+</item>
+
+<item>
+  <title>Kelp-Module-Template-Xslate-0.01 : Minimal</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MINIMAL/Kelp-Module-Template-Xslate-0.01.tar.gz</link>
+  <description>Minimal uploaded M/MI/MINIMAL/Kelp-Module-Template-Xslate-0.01.tar.gz (9k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Kelp-Module-Template-Xslate-0.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~minimal/Kelp/</comments>
+</item>
+
+<item>
+  <title>Net-Printer-1.12 : Cfuhrman</title>
+  <link>http://www.cpan.org/modules/by-authors/id/C/CF/CFUHRMAN/Net-Printer-1.12.tar.gz</link>
+  <description>Cfuhrman uploaded C/CF/CFUHRMAN/Net-Printer-1.12.tar.gz (13k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Net-Printer-1.12.tar.gz</guid>
+  <comments>http://search.cpan.org/~cfuhrman/Net/</comments>
+</item>
+
+<item>
+  <title>Log-Fine-0.63 : Cfuhrman</title>
+  <link>http://www.cpan.org/modules/by-authors/id/C/CF/CFUHRMAN/Log-Fine-0.63.tar.gz</link>
+  <description>Cfuhrman uploaded C/CF/CFUHRMAN/Log-Fine-0.63.tar.gz (62k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Log-Fine-0.63.tar.gz</guid>
+  <comments>http://search.cpan.org/~cfuhrman/Log/</comments>
+</item>
+
+<item>
+  <title>Mojolicious-Plugin-Util-Endpoint-0.14 : Akron</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AK/AKRON/Mojolicious-Plugin-Util-Endpoint-0.14.tar.gz</link>
+  <description>Akron uploaded A/AK/AKRON/Mojolicious-Plugin-Util-Endpoint-0.14.tar.gz (11k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Mojolicious-Plugin-Util-Endpoint-0.14.tar.gz</guid>
+  <comments>http://search.cpan.org/~akron/Mojolicious/</comments>
+</item>
+
+<item>
+  <title>Time-Duration-id-0.04 : Sharyanto</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SH/SHARYANTO/Time-Duration-id-0.04.tar.gz</link>
+  <description>Sharyanto uploaded S/SH/SHARYANTO/Time-Duration-id-0.04.tar.gz (11k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Time-Duration-id-0.04.tar.gz</guid>
+  <comments>http://search.cpan.org/~sharyanto/Time/</comments>
+</item>
+
+<item>
+  <title>Time-Duration-Patch-Millisecond-0.03 : Sharyanto</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SH/SHARYANTO/Time-Duration-Patch-Millisecond-0.03.tar.gz</link>
+  <description>Sharyanto uploaded S/SH/SHARYANTO/Time-Duration-Patch-Millisecond-0.03.tar.gz (11k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Time-Duration-Patch-Millisecond-0.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~sharyanto/Time/</comments>
+</item>
+
+<item>
+  <title>Alien-SFML-0.0101 : Jakeanq</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JA/JAKEANQ/Alien-SFML-0.0101.tar.gz</link>
+  <description>Jakeanq uploaded J/JA/JAKEANQ/Alien-SFML-0.0101.tar.gz (9.2M) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Alien-SFML-0.0101.tar.gz</guid>
+  <comments>http://search.cpan.org/~jakeanq/Alien/</comments>
+</item>
+
+<item>
+  <title>Search-Xapian-1.2.15.0 : Olly</title>
+  <link>http://www.cpan.org/modules/by-authors/id/O/OL/OLLY/Search-Xapian-1.2.15.0.tar.gz</link>
+  <description>Olly uploaded O/OL/OLLY/Search-Xapian-1.2.15.0.tar.gz (61k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Search-Xapian-1.2.15.0.tar.gz</guid>
+  <comments>http://search.cpan.org/~olly/Search/</comments>
+</item>
+
+<item>
+  <title>Bot-BasicBot-Pluggable-Module-MetaSyntactic-1.002 : Book</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BO/BOOK/Bot-BasicBot-Pluggable-Module-MetaSyntactic-1.002.tar.gz</link>
+  <description>Book uploaded B/BO/BOOK/Bot-BasicBot-Pluggable-Module-MetaSyntactic-1.002.tar.gz (14k) on 17 Apr 2013</description>
+  <guid isPermaLink="false">Bot-BasicBot-Pluggable-Module-MetaSyntactic-1.002.tar.gz</guid>
+  <comments>http://search.cpan.org/~book/Bot/</comments>
+</item>
+
+<item>
+  <title>Module-CPANfile-0.9031 : Miyagawa</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MI/MIYAGAWA/Module-CPANfile-0.9031.tar.gz</link>
+  <description>Miyagawa uploaded M/MI/MIYAGAWA/Module-CPANfile-0.9031.tar.gz (18k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Module-CPANfile-0.9031.tar.gz</guid>
+  <comments>http://search.cpan.org/~miyagawa/Module/</comments>
+</item>
+
+<item>
+  <title>MooseX-Getopt-Usage-0.10 : Pitchless</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PI/PITCHLESS/MooseX-Getopt-Usage-0.10.tar.gz</link>
+  <description>Pitchless uploaded P/PI/PITCHLESS/MooseX-Getopt-Usage-0.10.tar.gz (21k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">MooseX-Getopt-Usage-0.10.tar.gz</guid>
+  <comments>http://search.cpan.org/~pitchless/MooseX/</comments>
+</item>
+
+<item>
+  <title>XML-TreePP-XMLPath-0.70 : Rglaue</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RG/RGLAUE/XML-TreePP-XMLPath-0.70.tgz</link>
+  <description>Rglaue uploaded R/RG/RGLAUE/XML-TreePP-XMLPath-0.70.tgz (26k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">XML-TreePP-XMLPath-0.70.tgz</guid>
+  <comments>http://search.cpan.org/~rglaue/XML/</comments>
+</item>
+
+<item>
+  <title>HTTP-Headers-ActionPack-0.07 : Drolsky</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DR/DROLSKY/HTTP-Headers-ActionPack-0.07.tar.gz</link>
+  <description>Drolsky uploaded D/DR/DROLSKY/HTTP-Headers-ActionPack-0.07.tar.gz (34k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">HTTP-Headers-ActionPack-0.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~drolsky/HTTP/</comments>
+</item>
+
+<item>
+  <title>Test-Is-20130414 : Dolmen</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DO/DOLMEN/Test-Is-20130414.tar.gz</link>
+  <description>Dolmen uploaded D/DO/DOLMEN/Test-Is-20130414.tar.gz (12k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Test-Is-20130414.tar.gz</guid>
+  <comments>http://search.cpan.org/~dolmen/Test/</comments>
+</item>
+
+<item>
+  <title>MooseX-OneArgNew-0.003 : Rjbs</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RJ/RJBS/MooseX-OneArgNew-0.003.tar.gz</link>
+  <description>Rjbs uploaded R/RJ/RJBS/MooseX-OneArgNew-0.003.tar.gz (13k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">MooseX-OneArgNew-0.003.tar.gz</guid>
+  <comments>http://search.cpan.org/~rjbs/MooseX/</comments>
+</item>
+
+<item>
+  <title>Acme-SWUECHO-Meta-0.01 : Swuecho</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SW/SWUECHO/Acme-SWUECHO-Meta-0.01.tar.gz</link>
+  <description>Swuecho uploaded S/SW/SWUECHO/Acme-SWUECHO-Meta-0.01.tar.gz (10k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Acme-SWUECHO-Meta-0.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~swuecho/Acme/</comments>
+</item>
+
+<item>
+  <title>Finance-Bank-LaPoste-7.07 : Pixel</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PI/PIXEL/Finance-Bank-LaPoste-7.07.tar.gz</link>
+  <description>Pixel uploaded P/PI/PIXEL/Finance-Bank-LaPoste-7.07.tar.gz (7k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Finance-Bank-LaPoste-7.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~pixel/Finance/</comments>
+</item>
+
+<item>
+  <title>Catalyst-Model-SMS-0.4 : Matlads</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MA/MATLADS/Catalyst-Model-SMS-0.4.tar.gz</link>
+  <description>Matlads uploaded M/MA/MATLADS/Catalyst-Model-SMS-0.4.tar.gz (29k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Catalyst-Model-SMS-0.4.tar.gz</guid>
+  <comments>http://search.cpan.org/~matlads/Catalyst/</comments>
+</item>
+
+<item>
+  <title>IPC-SRLock-v0.9.212 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/IPC-SRLock-v0.9.212.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/ipc-srlock/IPC-SRLock-v0.9.212.tar.gz (28k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">IPC-SRLock-v0.9.212.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/IPC/</comments>
+</item>
+
+<item>
+  <title>App-dux-1.32 : Sharyanto</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SH/SHARYANTO/App-dux-1.32.tar.gz</link>
+  <description>Sharyanto uploaded S/SH/SHARYANTO/App-dux-1.32.tar.gz (12k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">App-dux-1.32.tar.gz</guid>
+  <comments>http://search.cpan.org/~sharyanto/App/</comments>
+</item>
+
+<item>
+  <title>Lingua-PTD-1.07 : Ambs</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AM/AMBS/Lingua-PTD-1.07.tar.gz</link>
+  <description>Ambs uploaded A/AM/AMBS/Lingua/Lingua-PTD-1.07.tar.gz (20k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Lingua-PTD-1.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~ambs/Lingua/</comments>
+</item>
+
+<item>
+  <title>Fcntl-Packer-0.02 : Salva</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SA/SALVA/Fcntl-Packer-0.02.tar.gz</link>
+  <description>Salva uploaded S/SA/SALVA/Fcntl-Packer-0.02.tar.gz (46k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Fcntl-Packer-0.02.tar.gz</guid>
+  <comments>http://search.cpan.org/~salva/Fcntl/</comments>
+</item>
+
+<item>
+  <title>AnyEvent-FileLock-0.02 : Salva</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SA/SALVA/AnyEvent-FileLock-0.02.tar.gz</link>
+  <description>Salva uploaded S/SA/SALVA/AnyEvent-FileLock-0.02.tar.gz (4k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">AnyEvent-FileLock-0.02.tar.gz</guid>
+  <comments>http://search.cpan.org/~salva/AnyEvent/</comments>
+</item>
+
+<item>
+  <title>Class-StateMachine-Declarative-0.01 : Salva</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SA/SALVA/Class-StateMachine-Declarative-0.01.tar.gz</link>
+  <description>Salva uploaded S/SA/SALVA/Class-StateMachine-Declarative-0.01.tar.gz (7k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Class-StateMachine-Declarative-0.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~salva/Class/</comments>
+</item>
+
+<item>
+  <title>Email-Simple-2.201 : Rjbs</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RJ/RJBS/Email-Simple-2.201.tar.gz</link>
+  <description>Rjbs uploaded R/RJ/RJBS/Email-Simple-2.201.tar.gz (31k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Email-Simple-2.201.tar.gz</guid>
+  <comments>http://search.cpan.org/~rjbs/Email/</comments>
+</item>
+
+<item>
+  <title>Hash-Persistent-1.00 : Mmcleric</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MM/MMCLERIC/Hash-Persistent-1.00.tar.gz</link>
+  <description>Mmcleric uploaded M/MM/MMCLERIC/Hash-Persistent-1.00.tar.gz (14k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Hash-Persistent-1.00.tar.gz</guid>
+  <comments>http://search.cpan.org/~mmcleric/Hash/</comments>
+</item>
+
+<item>
+  <title>Archive-BagIt-0.032 : Rjeschmi</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RJ/RJESCHMI/Archive-BagIt-0.032.tar.gz</link>
+  <description>Rjeschmi uploaded R/RJ/RJESCHMI/Archive-BagIt-0.032.tar.gz (23k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Archive-BagIt-0.032.tar.gz</guid>
+  <comments>http://search.cpan.org/~rjeschmi/Archive/</comments>
+</item>
+
+<item>
+  <title>Plack-Middleware-CSRFBlock-0.07 : Mattp</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MA/MATTP/Plack-Middleware-CSRFBlock-0.07.tar.gz</link>
+  <description>Mattp uploaded M/MA/MATTP/Plack-Middleware-CSRFBlock-0.07.tar.gz (15k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Plack-Middleware-CSRFBlock-0.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~mattp/Plack/</comments>
+</item>
+
+<item>
+  <title>xml-binddata-0.0.2 : Cursork</title>
+  <link>http://www.cpan.org/modules/by-authors/id/C/CU/CURSORK/xml-binddata-0.0.2.tar.gz</link>
+  <description>Cursork uploaded C/CU/CURSORK/xml-binddata-0.0.2.tar.gz (10k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">xml-binddata-0.0.2.tar.gz</guid>
+  <comments>http://search.cpan.org/~cursork/XML/</comments>
+</item>
+
+<item>
+  <title>Net-CampaignMonitor-v2.2.0 : Jdennes</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JD/JDENNES/Net-CampaignMonitor-v2.2.0.tar.gz</link>
+  <description>Jdennes uploaded J/JD/JDENNES/Net-CampaignMonitor-v2.2.0.tar.gz (44k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Net-CampaignMonitor-v2.2.0.tar.gz</guid>
+  <comments>http://search.cpan.org/~jdennes/Net/</comments>
+</item>
+
+<item>
+  <title>Digest-SpookyHash-1.01 : Hideakio</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HI/HIDEAKIO/Digest-SpookyHash-1.01.tar.gz</link>
+  <description>Hideakio uploaded H/HI/HIDEAKIO/Digest-SpookyHash-1.01.tar.gz (19k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Digest-SpookyHash-1.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~hideakio/Digest/</comments>
+</item>
+
+<item>
+  <title>App-scan_prereqs_cpanfile-0.05 : Tokuhirom</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOKUHIROM/App-scan_prereqs_cpanfile-0.05.tar.gz</link>
+  <description>Tokuhirom uploaded T/TO/TOKUHIROM/App-scan_prereqs_cpanfile-0.05.tar.gz (12k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">App-scan_prereqs_cpanfile-0.05.tar.gz</guid>
+  <comments>http://search.cpan.org/~tokuhirom/App/</comments>
+</item>
+
+<item>
+  <title>ExtUtils-Helpers-0.018 : Leont</title>
+  <link>http://www.cpan.org/modules/by-authors/id/L/LE/LEONT/ExtUtils-Helpers-0.018.tar.gz</link>
+  <description>Leont uploaded L/LE/LEONT/ExtUtils-Helpers-0.018.tar.gz (16k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">ExtUtils-Helpers-0.018.tar.gz</guid>
+  <comments>http://search.cpan.org/~leont/ExtUtils/</comments>
+</item>
+
+<item>
+  <title>Catalyst-Plugin-AutoCRUD-2.131060 : Oliver</title>
+  <link>http://www.cpan.org/modules/by-authors/id/O/OL/OLIVER/Catalyst-Plugin-AutoCRUD-2.131060.tar.gz</link>
+  <description>Oliver uploaded O/OL/OLIVER/Catalyst-Plugin-AutoCRUD-2.131060.tar.gz (111k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Catalyst-Plugin-AutoCRUD-2.131060.tar.gz</guid>
+  <comments>http://search.cpan.org/~oliver/Catalyst/</comments>
+</item>
+
+<item>
+  <title>File-MealMaster-v0.16.5 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/File-MealMaster-v0.16.5.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/file-mealmaster/File-MealMaster-v0.16.5.tar.gz (24k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">File-MealMaster-v0.16.5.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/File/</comments>
+</item>
+
+<item>
+  <title>SVN-Access-0.09 : Mgregoro</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MG/MGREGORO/SVN-Access-0.09.tar.gz</link>
+  <description>Mgregoro uploaded M/MG/MGREGORO/SVN-Access-0.09.tar.gz (10k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">SVN-Access-0.09.tar.gz</guid>
+  <comments>http://search.cpan.org/~mgregoro/SVN/</comments>
+</item>
+
+<item>
+  <title>IO-Socket-IP-0.20 : Pevans</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PE/PEVANS/IO-Socket-IP-0.20.tar.gz</link>
+  <description>Pevans uploaded P/PE/PEVANS/IO-Socket-IP-0.20.tar.gz (37k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">IO-Socket-IP-0.20.tar.gz</guid>
+  <comments>http://search.cpan.org/~pevans/IO/</comments>
+</item>
+
+<item>
+  <title>String-Print-0.11 : Markov</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MA/MARKOV/String-Print-0.11.tar.gz</link>
+  <description>Markov uploaded M/MA/MARKOV/String-Print-0.11.tar.gz (12k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">String-Print-0.11.tar.gz</guid>
+  <comments>http://search.cpan.org/~markov/String/</comments>
+</item>
+
+<item>
+  <title>jmx4perl-1.07 : Roland</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RO/ROLAND/jmx4perl-1.07.tar.gz</link>
+  <description>Roland uploaded R/RO/ROLAND/jmx4perl-1.07.tar.gz (344k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">jmx4perl-1.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~roland/JMX/</comments>
+</item>
+
+<item>
+  <title>Class-StateMachine-0.23 : Salva</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SA/SALVA/Class-StateMachine-0.23.tar.gz</link>
+  <description>Salva uploaded S/SA/SALVA/Class-StateMachine-0.23.tar.gz (10k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Class-StateMachine-0.23.tar.gz</guid>
+  <comments>http://search.cpan.org/~salva/Class/</comments>
+</item>
+
+<item>
+  <title>Pg-PQ-0.12 : Salva</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SA/SALVA/Pg-PQ-0.12.tar.gz</link>
+  <description>Salva uploaded S/SA/SALVA/Pg-PQ-0.12.tar.gz (70k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Pg-PQ-0.12.tar.gz</guid>
+  <comments>http://search.cpan.org/~salva/Pg/</comments>
+</item>
+
+<item>
+  <title>Bio_AssemblyImprovement-1.131060 : Ajpage</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AJ/AJPAGE/Bio_AssemblyImprovement-1.131060.tar.gz</link>
+  <description>Ajpage uploaded A/AJ/AJPAGE/Bio_AssemblyImprovement-1.131060.tar.gz (51k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Bio_AssemblyImprovement-1.131060.tar.gz</guid>
+  <comments>http://search.cpan.org/~ajpage/Bio/</comments>
+</item>
+
+<item>
+  <title>Text-Cadenceparser-1.11 : Hollie</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HO/HOLLIE/Text-Cadenceparser-1.11.tar.gz</link>
+  <description>Hollie uploaded H/HO/HOLLIE/Text-Cadenceparser-1.11.tar.gz (41k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Text-Cadenceparser-1.11.tar.gz</guid>
+  <comments>http://search.cpan.org/~hollie/Text/</comments>
+</item>
+
+<item>
+  <title>Catalyst-Action-REST-1.08 : Bobtfish</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BO/BOBTFISH/Catalyst-Action-REST-1.08.tar.gz</link>
+  <description>Bobtfish uploaded B/BO/BOBTFISH/Catalyst-Action-REST-1.08.tar.gz (64k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Catalyst-Action-REST-1.08.tar.gz</guid>
+  <comments>http://search.cpan.org/~bobtfish/Catalyst/</comments>
+</item>
+
+<item>
+  <title>Catalyst-Action-Serialize-Data-Serializer-1.08 : Bobtfish</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BO/BOBTFISH/Catalyst-Action-Serialize-Data-Serializer-1.08.tar.gz</link>
+  <description>Bobtfish uploaded B/BO/BOBTFISH/Catalyst-Action-Serialize-Data-Serializer-1.08.tar.gz (31k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Catalyst-Action-Serialize-Data-Serializer-1.08.tar.gz</guid>
+  <comments>http://search.cpan.org/~bobtfish/Catalyst/</comments>
+</item>
+
+<item>
+  <title>File-BetweenTree-1.01 : Dsyrtm</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DS/DSYRTM/File-BetweenTree-1.01.tar.gz</link>
+  <description>Dsyrtm uploaded D/DS/DSYRTM/File-BetweenTree-1.01.tar.gz (7k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">File-BetweenTree-1.01.tar.gz</guid>
+  <comments>http://search.cpan.org/~dsyrtm/File/</comments>
+</item>
+
+<item>
+  <title>IBM-SONAS-0.021 : Ltp</title>
+  <link>http://www.cpan.org/modules/by-authors/id/L/LT/LTP/IBM-SONAS-0.021.tar.gz</link>
+  <description>Ltp uploaded L/LT/LTP/IBM-SONAS-0.021.tar.gz (7k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">IBM-SONAS-0.021.tar.gz</guid>
+  <comments>http://search.cpan.org/~ltp/IBM/</comments>
+</item>
+
+<item>
+  <title>CPAN-Local-Role-MetaCPAN-API-0.001 : Rsrchboy</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RS/RSRCHBOY/CPAN-Local-Role-MetaCPAN-API-0.001.tar.gz</link>
+  <description>Rsrchboy uploaded R/RS/RSRCHBOY/CPAN-Local-Role-MetaCPAN-API-0.001.tar.gz (19k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">CPAN-Local-Role-MetaCPAN-API-0.001.tar.gz</guid>
+  <comments>http://search.cpan.org/~rsrchboy/CPAN/</comments>
+</item>
+
+<item>
+  <title>Forks-Super-0.66 : Mob</title>
+  <link>http://www.cpan.org/modules/by-authors/id/M/MO/MOB/Forks-Super-0.66.tar.gz</link>
+  <description>Mob uploaded M/MO/MOB/Forks-Super-0.66.tar.gz (292k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Forks-Super-0.66.tar.gz</guid>
+  <comments>http://search.cpan.org/~mob/Sys/</comments>
+</item>
+
+<item>
+  <title>News-Newsrc-1.11 : Swmcd</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SW/SWMCD/News-Newsrc-1.11.tar.gz</link>
+  <description>Swmcd uploaded S/SW/SWMCD/News-Newsrc-1.11.tar.gz (11k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">News-Newsrc-1.11.tar.gz</guid>
+  <comments>http://search.cpan.org/~swmcd/News/</comments>
+</item>
+
+<item>
+  <title>WebService-Livedoor-Weather-0.04 : Yturtle</title>
+  <link>http://www.cpan.org/modules/by-authors/id/Y/YT/YTURTLE/WebService-Livedoor-Weather-0.04.tar.gz</link>
+  <description>Yturtle uploaded Y/YT/YTURTLE/WebService-Livedoor-Weather-0.04.tar.gz (11k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">WebService-Livedoor-Weather-0.04.tar.gz</guid>
+  <comments>http://search.cpan.org/~yturtle/WebService/</comments>
+</item>
+
+<item>
+  <title>Email-Sender-Transport-SMTP-TLS-0.13 : Fayland</title>
+  <link>http://www.cpan.org/modules/by-authors/id/F/FA/FAYLAND/Email-Sender-Transport-SMTP-TLS-0.13.tar.gz</link>
+  <description>Fayland uploaded F/FA/FAYLAND/Email-Sender-Transport-SMTP-TLS-0.13.tar.gz (13k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Email-Sender-Transport-SMTP-TLS-0.13.tar.gz</guid>
+  <comments>http://search.cpan.org/~fayland/Email/</comments>
+</item>
+
+<item>
+  <title>WWW-Jawbone-Up-1.32.0 : Aberndt</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AB/ABERNDT/WWW-Jawbone-Up-1.32.0.tar.gz</link>
+  <description>Aberndt uploaded A/AB/ABERNDT/WWW-Jawbone-Up-1.32.0.tar.gz (14k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">WWW-Jawbone-Up-1.32.0.tar.gz</guid>
+  <comments>http://search.cpan.org/~aberndt/WWW/</comments>
+</item>
+
+<item>
+  <title>Web-Machine-0.10 : Drolsky</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DR/DROLSKY/Web-Machine-0.10.tar.gz</link>
+  <description>Drolsky uploaded D/DR/DROLSKY/Web-Machine-0.10.tar.gz (50k) on 16 Apr 2013</description>
+  <guid isPermaLink="false">Web-Machine-0.10.tar.gz</guid>
+  <comments>http://search.cpan.org/~drolsky/Web/</comments>
+</item>
+
+<item>
+  <title>MooseX-Role-DryRunnable-0.006 : Pacman</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PA/PACMAN/MooseX-Role-DryRunnable-0.006.tar.gz</link>
+  <description>Pacman uploaded P/PA/PACMAN/MooseX-Role-DryRunnable-0.006.tar.gz (14k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">MooseX-Role-DryRunnable-0.006.tar.gz</guid>
+  <comments>http://search.cpan.org/~pacman/MooseX/</comments>
+</item>
+
+<item>
+  <title>Dancer2-Plugin-RoutePodCoverage-0.05 : Drebolo</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DR/DREBOLO/Dancer2-Plugin-RoutePodCoverage-0.05.tar.gz</link>
+  <description>Drebolo uploaded D/DR/DREBOLO/Dancer2-Plugin-RoutePodCoverage-0.05.tar.gz (4k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Dancer2-Plugin-RoutePodCoverage-0.05.tar.gz</guid>
+  <comments>http://search.cpan.org/~drebolo/Dancer2/</comments>
+</item>
+
+<item>
+  <title>Test-Regexp-2013041501 : Abigail</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AB/ABIGAIL/Test-Regexp-2013041501.tar.gz</link>
+  <description>Abigail uploaded A/AB/ABIGAIL/Test-Regexp-2013041501.tar.gz (16k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Test-Regexp-2013041501.tar.gz</guid>
+  <comments>http://search.cpan.org/~abigail/Test/</comments>
+</item>
+
+<item>
+  <title>Mojolicious-Plugin-WebFinger-0.03 : Akron</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AK/AKRON/Mojolicious-Plugin-WebFinger-0.03.tar.gz</link>
+  <description>Akron uploaded A/AK/AKRON/Mojolicious-Plugin-WebFinger-0.03.tar.gz (13k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Mojolicious-Plugin-WebFinger-0.03.tar.gz</guid>
+  <comments>http://search.cpan.org/~akron/Mojolicious/</comments>
+</item>
+
+<item>
+  <title>File-DataClass-v0.16.442 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/File-DataClass-v0.16.442.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/file-dataclass/File-DataClass-v0.16.442.tar.gz (75k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">File-DataClass-v0.16.442.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/File/</comments>
+</item>
+
+<item>
+  <title>WebService-BorisBikes-0.09 : Vichou</title>
+  <link>http://www.cpan.org/modules/by-authors/id/V/VI/VICHOU/WebService-BorisBikes-0.09.tar.gz</link>
+  <description>Vichou uploaded V/VI/VICHOU/WebService-BorisBikes-0.09.tar.gz (36k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">WebService-BorisBikes-0.09.tar.gz</guid>
+  <comments>http://search.cpan.org/~vichou/WebService/</comments>
+</item>
+
+<item>
+  <title>MooX-InsideOut-0.001002 : Haarg</title>
+  <link>http://www.cpan.org/modules/by-authors/id/H/HA/HAARG/MooX-InsideOut-0.001002.tar.gz</link>
+  <description>Haarg uploaded H/HA/HAARG/MooX-InsideOut-0.001002.tar.gz (3k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">MooX-InsideOut-0.001002.tar.gz</guid>
+  <comments>http://search.cpan.org/~haarg/MooX/</comments>
+</item>
+
+<item>
+  <title>Mojolicious-Plugin-HostMeta-0.09 : Akron</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AK/AKRON/Mojolicious-Plugin-HostMeta-0.09.tar.gz</link>
+  <description>Akron uploaded A/AK/AKRON/Mojolicious-Plugin-HostMeta-0.09.tar.gz (12k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Mojolicious-Plugin-HostMeta-0.09.tar.gz</guid>
+  <comments>http://search.cpan.org/~akron/Mojolicious/</comments>
+</item>
+
+<item>
+  <title>Test-DBIx-Class-0.39 : Jjnapiork</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JJ/JJNAPIORK/Test-DBIx-Class-0.39.tar.gz</link>
+  <description>Jjnapiork uploaded J/JJ/JJNAPIORK/Test-DBIx-Class-0.39.tar.gz (81k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Test-DBIx-Class-0.39.tar.gz</guid>
+  <comments>http://search.cpan.org/~jjnapiork/Test/</comments>
+</item>
+
+<item>
+  <title>App-Sqitch-0.964 : Dwheeler</title>
+  <link>http://www.cpan.org/modules/by-authors/id/D/DW/DWHEELER/App-Sqitch-0.964.tar.gz</link>
+  <description>Dwheeler uploaded D/DW/DWHEELER/App-Sqitch-0.964.tar.gz (272k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">App-Sqitch-0.964.tar.gz</guid>
+  <comments>http://search.cpan.org/~dwheeler/App/</comments>
+</item>
+
+<item>
+  <title>Net-IMAP-Simple-1.2200 : Jettero</title>
+  <link>http://www.cpan.org/modules/by-authors/id/J/JE/JETTERO/Net-IMAP-Simple-1.2200.tar.gz</link>
+  <description>Jettero uploaded J/JE/JETTERO/Net-IMAP-Simple-1.2200.tar.gz (44k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Net-IMAP-Simple-1.2200.tar.gz</guid>
+  <comments>http://search.cpan.org/~jettero/Net/</comments>
+</item>
+
+<item>
+  <title>Mojolicious-Plugin-XRD-0.05 : Akron</title>
+  <link>http://www.cpan.org/modules/by-authors/id/A/AK/AKRON/Mojolicious-Plugin-XRD-0.05.tar.gz</link>
+  <description>Akron uploaded A/AK/AKRON/Mojolicious-Plugin-XRD-0.05.tar.gz (10k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Mojolicious-Plugin-XRD-0.05.tar.gz</guid>
+  <comments>http://search.cpan.org/~akron/Mojolicious/</comments>
+</item>
+
+<item>
+  <title>Module-Provision-v0.3.45 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/Module-Provision-v0.3.45.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/module-provision/Module-Provision-v0.3.45.tar.gz (38k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Module-Provision-v0.3.45.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/Module/</comments>
+</item>
+
+<item>
+  <title>Class-Usul-v0.13.272 : Pjfl</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PJ/PJFL/Class-Usul-v0.13.272.tar.gz</link>
+  <description>Pjfl uploaded P/PJ/PJFL/class-usul/Class-Usul-v0.13.272.tar.gz (106k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Class-Usul-v0.13.272.tar.gz</guid>
+  <comments>http://search.cpan.org/~pjfl/Class/</comments>
+</item>
+
+<item>
+  <title>Alien-unibilium-0.07 : Pevans</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PE/PEVANS/Alien-unibilium-0.07.tar.gz</link>
+  <description>Pevans uploaded P/PE/PEVANS/Alien-unibilium-0.07.tar.gz (82k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Alien-unibilium-0.07.tar.gz</guid>
+  <comments>http://search.cpan.org/~pevans/Alien/</comments>
+</item>
+
+<item>
+  <title>Alien-libtermkey-0.14 : Pevans</title>
+  <link>http://www.cpan.org/modules/by-authors/id/P/PE/PEVANS/Alien-libtermkey-0.14.tar.gz</link>
+  <description>Pevans uploaded P/PE/PEVANS/Alien-libtermkey-0.14.tar.gz (54k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Alien-libtermkey-0.14.tar.gz</guid>
+  <comments>http://search.cpan.org/~pevans/Alien/</comments>
+</item>
+
+<item>
+  <title>Test-AllModules-0.11 : Bayashi</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BA/BAYASHI/Test-AllModules-0.11.tar.gz</link>
+  <description>Bayashi uploaded B/BA/BAYASHI/Test-AllModules-0.11.tar.gz (7k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Test-AllModules-0.11.tar.gz</guid>
+  <comments>http://search.cpan.org/~bayashi/Test/</comments>
+</item>
+
+<item>
+  <title>EBook-MOBI-0.61 : Borisd</title>
+  <link>http://www.cpan.org/modules/by-authors/id/B/BO/BORISD/EBook-MOBI-0.61.tar.gz</link>
+  <description>Borisd uploaded B/BO/BORISD/EBook-MOBI-0.61.tar.gz (80k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">EBook-MOBI-0.61.tar.gz</guid>
+  <comments>http://search.cpan.org/~borisd/EBook/</comments>
+</item>
+
+<item>
+  <title>Dist-Zilla-Plugin-Run-0.019 : Rwstauner</title>
+  <link>http://www.cpan.org/modules/by-authors/id/R/RW/RWSTAUNER/Dist-Zilla-Plugin-Run-0.019.tar.gz</link>
+  <description>Rwstauner uploaded R/RW/RWSTAUNER/Dist-Zilla-Plugin-Run-0.019.tar.gz (18k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Dist-Zilla-Plugin-Run-0.019.tar.gz</guid>
+  <comments>http://search.cpan.org/~rwstauner/Dist/</comments>
+</item>
+
+<item>
+  <title>Math-CheckDigits-0.05 : Songmu</title>
+  <link>http://www.cpan.org/modules/by-authors/id/S/SO/SONGMU/Math-CheckDigits-0.05.tar.gz</link>
+  <description>Songmu uploaded S/SO/SONGMU/Math-CheckDigits-0.05.tar.gz (11k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Math-CheckDigits-0.05.tar.gz</guid>
+  <comments>http://search.cpan.org/~songmu/Math/</comments>
+</item>
+
+<item>
+  <title>Parse-RPN-2.69 : Fdulau</title>
+  <link>http://www.cpan.org/modules/by-authors/id/F/FD/FDULAU/Parse-RPN-2.69.tar.gz</link>
+  <description>Fdulau uploaded F/FD/FDULAU/Parse-RPN-2.69.tar.gz (39k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Parse-RPN-2.69.tar.gz</guid>
+  <comments>http://search.cpan.org/~fdulau/Parse/</comments>
+</item>
+
+<item>
+  <title>MooX-late-0.009 : Tobyink</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOBYINK/MooX-late-0.009.tar.gz</link>
+  <description>Tobyink uploaded T/TO/TOBYINK/MooX-late-0.009.tar.gz (50k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">MooX-late-0.009.tar.gz</guid>
+  <comments>http://search.cpan.org/~tobyink/MooX/</comments>
+</item>
+
+<item>
+  <title>Type-Tiny-0.001 : Tobyink</title>
+  <link>http://www.cpan.org/modules/by-authors/id/T/TO/TOBYINK/Type-Tiny-0.001.tar.gz</link>
+  <description>Tobyink uploaded T/TO/TOBYINK/Type-Tiny-0.001.tar.gz (99k) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Type-Tiny-0.001.tar.gz</guid>
+  <comments>http://search.cpan.org/~tobyink/Test/</comments>
+</item>
+
+<item>
+  <title>Image-ExifTool-9.27 : Exiftool</title>
+  <link>http://www.cpan.org/modules/by-authors/id/E/EX/EXIFTOOL/Image-ExifTool-9.27.tar.gz</link>
+  <description>Exiftool uploaded E/EX/EXIFTOOL/Image-ExifTool-9.27.tar.gz (3.5M) on 15 Apr 2013</description>
+  <guid isPermaLink="false">Image-ExifTool-9.27.tar.gz</guid>
+  <comments>http://search.cpan.org/~exiftool/Image/</comments>
+</item>
+
+</channel></rss>
