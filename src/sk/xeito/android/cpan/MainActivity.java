@@ -1,6 +1,9 @@
 package sk.xeito.android.cpan;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,6 +14,7 @@ import android.content.res.AssetManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 public class MainActivity extends BaseActivity {
 
@@ -24,20 +28,29 @@ public class MainActivity extends BaseActivity {
 		task.execute();
 	}
 
-	class RssLoader extends AsyncTask<Void, Void, Void> {
+	class RssLoader extends AsyncTask<Void, Void, List<FeedEntry>> {
 		@Override
-		protected Void doInBackground(Void... params) {
-			// TODO Auto-generated method stub
+		protected List<FeedEntry> doInBackground(Void... params) {
+			List<FeedEntry> entries;
+
 			try {
-				doTask();
+				entries = doTask();
 			}
 			catch (Exception e) {
 				printf("Failed to run async: %s", e.toString());
+				entries = Collections.emptyList();
 			}
-			return null;
+
+			return entries;
 		}
-		
-		private void doTask() throws Exception {
+
+		@Override
+		protected void onPostExecute(List<FeedEntry> entries) {
+			TextView loadingLabel = (TextView) findViewById(R.id.loading_rss);
+			loadingLabel.setText(String.format("Loaded %s entries", entries.size()));
+		}
+
+		private List<FeedEntry> doTask() throws Exception {
 			AssetManager assets = getAssets();
 			InputStream input = assets.open(FILE);
 			XmlPullParserFactory parser = XmlPullParserFactory.newInstance();
@@ -46,6 +59,7 @@ public class MainActivity extends BaseActivity {
 
 			Pattern regexp = Pattern.compile("^(.+)-([^-]+) : (\\S+)$");
 			boolean doingItems = false;
+			List<FeedEntry> feedEntries = new ArrayList<FeedEntry>();
 			LOOP:
 			while (true) {
 				int type = pullParser.next();
@@ -56,27 +70,28 @@ public class MainActivity extends BaseActivity {
 
 					case XmlPullParser.START_TAG:
 						String name = pullParser.getName();
-						if (doingItems) {
-							if (name.equals("title")) {
-								String text = pullParser.nextText();
-								Matcher matcher = regexp.matcher(text);
-								if (matcher.find()) {
-									String module = matcher.group(1);
-									String version = matcher.group(2);
-									String user = matcher.group(3);
-									printf("Found module: %s; version: %s; user: %s", module, version, user);
-								}
+						if (doingItems && name.equals("title")) {
+							// Parse a <item><title>
+							String text = pullParser.nextText();
+							Matcher matcher = regexp.matcher(text);
+							if (matcher.find()) {
+								String module = matcher.group(1);
+								String version = matcher.group(2);
+								String author = matcher.group(3);
+								FeedEntry feedEntry = new FeedEntry(module, version, author);
+								feedEntries.add(feedEntry);
 							}
 						}
-						else {
-							if (name.equals("item")) {
-								doingItems = true;
-							}
+						else if (name.equals("item")) {
+							// We can start capturing items
+							doingItems = true;
 						}
-						//printf("Type: %s; name: %s", type, name);
 					break;
 				}
 			}
+
+			printf("Found %s entries", feedEntries.size());
+			return feedEntries;
 		}
 	}
 
