@@ -10,20 +10,31 @@ import java.util.regex.Pattern;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends BaseActivity {
 
 	private static final String FILE = "01modules.mtime.rss";
 
+	private ListView list;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		list = (ListView) findViewById(R.id.rss_list);
+
+		// Load the RSS feed
 		RssLoader task = new RssLoader();
 		task.execute();
 	}
@@ -48,6 +59,10 @@ public class MainActivity extends BaseActivity {
 		protected void onPostExecute(List<FeedEntry> entries) {
 			TextView loadingLabel = (TextView) findViewById(R.id.loading_rss);
 			loadingLabel.setText(String.format("Loaded %s entries", entries.size()));
+
+			FeedAdapter adapter = new FeedAdapter(MainActivity.this);
+			adapter.addAll(entries);
+			list.setAdapter(adapter);
 		}
 
 		private List<FeedEntry> doTask() throws Exception {

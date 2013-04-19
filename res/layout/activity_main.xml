@@ -14,4 +14,9 @@
         android:layout_height="wrap_content"
         android:text="@string/loading_rss" />
 
+    <ListView
+        android:id="@+id/rss_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        />
 </RelativeLayout>
