@@ -13,6 +13,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import android.content.res.AssetManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -20,6 +21,7 @@ public class MainActivity extends BaseActivity {
 
 	private static final String FILE = "01modules.mtime.rss";
 
+	private TextView loadingView;
 	private ListView list;
 
 	@Override
@@ -27,7 +29,9 @@ public class MainActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		loadingView = (TextView) findViewById(R.id.loading_rss);
 		list = (ListView) findViewById(R.id.rss_list);
+		list.setVisibility(View.GONE);
 
 		// Load the RSS feed
 		RssLoader task = new RssLoader();
@@ -52,12 +56,11 @@ public class MainActivity extends BaseActivity {
 
 		@Override
 		protected void onPostExecute(List<FeedEntry> entries) {
-			TextView loadingLabel = (TextView) findViewById(R.id.loading_rss);
-			loadingLabel.setText(String.format("Loaded %s entries", entries.size()));
-
 			FeedAdapter adapter = new FeedAdapter(MainActivity.this);
 			adapter.addAll(entries);
 			list.setAdapter(adapter);
+			list.setVisibility(View.VISIBLE);
+			loadingView.setVisibility(View.GONE);
 		}
 
 		private List<FeedEntry> doTask() throws Exception {
