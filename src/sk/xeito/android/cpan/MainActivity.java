@@ -71,8 +71,10 @@ public class MainActivity extends BaseActivity {
 			pullParser.setInput(input, "utf-8");
 
 			Pattern regexp = Pattern.compile("^(.+)-([^-]+) : (\\S+)$");
-			boolean doingItems = false;
+			boolean doingItem = false;
 			List<FeedEntry> feedEntries = new ArrayList<FeedEntry>();
+			FeedEntry feedEntry = null;
+
 			LOOP:
 			while (true) {
 				int type = pullParser.next();
@@ -82,21 +84,30 @@ public class MainActivity extends BaseActivity {
 
 					case XmlPullParser.START_TAG:
 						String name = pullParser.getName();
-						if (doingItems && name.equals("title")) {
-							// Parse a <item><title>
-							String text = pullParser.nextText();
-							Matcher matcher = regexp.matcher(text);
-							if (matcher.find()) {
-								String module = matcher.group(1);
-								String version = matcher.group(2);
-								String author = matcher.group(3);
-								FeedEntry feedEntry = new FeedEntry(module, version, author);
+						if (doingItem) {
+							if (name.equals("title")) {
+								// Parse a <item><title>
+								String text = pullParser.nextText();
+								Matcher matcher = regexp.matcher(text);
+								if (matcher.find()) {
+									feedEntry.module = matcher.group(1);
+									feedEntry.version = matcher.group(2);
+									feedEntry.author = matcher.group(3);
+								}
+							}
+							else if (name.equals("comments")) {
+								feedEntry.url = pullParser.nextText();
+							}
+
+							if (feedEntry.module != null && feedEntry.url != null) {
 								feedEntries.add(feedEntry);
+								doingItem = false;
 							}
 						}
 						else if (name.equals("item")) {
-							// We can start capturing items
-							doingItems = true;
+							// We can start capturing an item
+							doingItem = true;
+							feedEntry = new FeedEntry();
 						}
 					break;
 				}

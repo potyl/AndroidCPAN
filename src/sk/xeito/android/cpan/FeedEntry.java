@@ -1,25 +1,25 @@
 package sk.xeito.android.cpan;
 
 public class FeedEntry {
-	final String module;
-	final String version;
-	final String author;
+	public String module;
+	public String version;
+	public String author;
+	public String url;
 
-	public FeedEntry (String module, String version, String author) {
-		this.module = module;
-		this.version = version;
-		this.author = author;
+	public FeedEntry () {
+		// Empty
 	}
 
 	@Override
 	public String toString() {
 		return String.format(
-			"%s[0x%08x](module: %s; version: %s; author: %s)",
+			"%s[0x%08x](module: %s; version: %s; author: %s; url: %s)",
 			getClass().getSimpleName(),
 			System.identityHashCode(this),
 			module,
 			version,
-			author
+			author,
+			url
 		);
 	}
 }
