@@ -153,8 +153,8 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 		FeedEntry feedEntry = adapter.getItem(position);
-		Intent intent = new Intent(Intent.ACTION_VIEW);
-		intent.setData(Uri.parse(feedEntry.getCpanUrl()));
+		Intent intent = new Intent(this, FeedItemActivity.class);
+		intent.putExtra(B.args.url, feedEntry.getCpanUrl());
 		startActivity(intent);
 	}
 }
