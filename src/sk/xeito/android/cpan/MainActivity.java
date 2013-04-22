@@ -19,7 +19,6 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.content.Intent;
 import android.content.res.AssetManager;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -155,6 +154,7 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 		FeedEntry feedEntry = adapter.getItem(position);
 		Intent intent = new Intent(this, FeedItemActivity.class);
 		intent.putExtra(B.args.url, feedEntry.getCpanUrl());
+		intent.putExtra(B.args.feed_entry, feedEntry);
 		startActivity(intent);
 	}
 }

@@ -1,8 +1,11 @@
 package sk.xeito.android.cpan;
 
 import android.net.Uri;
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.os.Parcelable.Creator;
 
-public class FeedEntry {
+public class FeedEntry implements Parcelable {
 	private static final String URI_TEMPLATE = "http://search.cpan.org/perldoc?%s";
 
 	public String module;
@@ -12,6 +15,13 @@ public class FeedEntry {
 
 	public FeedEntry () {
 		// Empty
+	}
+
+	public FeedEntry (Parcel in) {
+		module = in.readString();
+		version = in.readString();
+		author = in.readString();
+		url = in.readString();
 	}
 
 	public String getCpanUrl() {
@@ -32,4 +42,27 @@ public class FeedEntry {
 			url
 		);
 	}
+
+	@Override
+	public int describeContents() {
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		dest.writeString(module);
+		dest.writeString(version);
+		dest.writeString(author);
+		dest.writeString(url);
+	}
+
+	public static final Creator<FeedEntry> CREATOR = new Parcelable.Creator<FeedEntry>() {
+		public FeedEntry createFromParcel(Parcel in) {
+			return new FeedEntry(in);
+		}
+
+		public FeedEntry[] newArray(int size) {
+			return new FeedEntry[size];
+		}
+	};
 }

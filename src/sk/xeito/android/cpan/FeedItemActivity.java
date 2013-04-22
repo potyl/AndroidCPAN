@@ -1,6 +1,7 @@
 package sk.xeito.android.cpan;
 
 import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebSettings;
@@ -25,6 +26,11 @@ public class FeedItemActivity extends BaseActivity {
 			finish();
 			return;
 		}
+
+		FeedEntry feedEntry = bundle.getParcelable(B.args.feed_entry);
+		ActionBar actionBar = getActionBar();
+		actionBar.setTitle(feedEntry.module);
+		actionBar.setSubtitle(feedEntry.author);
 
 		WebView webView = (WebView) findViewById(R.id.web_view);
 		WebSettings settings = webView.getSettings();

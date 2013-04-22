@@ -6,5 +6,10 @@ public interface B {
 		 * Pass an URL.
 		 */
 		String url = "url";
+
+		/**
+		 * Pass a feed entry.
+		 */
+		String feed_entry = "feed_entry";
 	}
 }
