@@ -16,7 +16,7 @@ public class FeedEntry {
 
 	public String getCpanUrl() {
 		String cpanPackage = module.replace("-", "::");
-		String uriCpanPakacge = Uri.decode(cpanPackage);
+		String uriCpanPakacge = Uri.encode(cpanPackage);
 		return String.format(URI_TEMPLATE, uriCpanPakacge);
 	}
 
