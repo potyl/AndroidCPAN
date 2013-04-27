@@ -3,7 +3,6 @@ package sk.xeito.android.cpan;
 import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.os.Parcelable.Creator;
 
 public class FeedEntry implements Parcelable {
 	private static final String URI_TEMPLATE = "http://search.cpan.org/perldoc?%s";
@@ -56,7 +55,7 @@ public class FeedEntry implements Parcelable {
 		dest.writeString(url);
 	}
 
-	public static final Creator<FeedEntry> CREATOR = new Parcelable.Creator<FeedEntry>() {
+	public static final Creator<FeedEntry> CREATOR = new Creator<FeedEntry>() {
 		public FeedEntry createFromParcel(Parcel in) {
 			return new FeedEntry(in);
 		}
