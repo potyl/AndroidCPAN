@@ -3,7 +3,6 @@ package sk.xeito.android.cpan;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -62,7 +61,8 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 			}
 			catch (Exception e) {
 				Utils.printf("Failed to run async: %s", e.toString());
-				entries = Collections.emptyList();
+				entries = null;
+				loadingView.setText(R.string.rss_load_failure);
 			}
 
 			return entries;
@@ -70,6 +70,11 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
 
 		@Override
 		protected void onPostExecute(List<FeedEntry> entries) {
+			if (entries == null) {
+				// Failed to load the entries
+				return;
+			}
+
 			adapter = new FeedAdapter(MainActivity.this);
 			adapter.addAll(entries);
 			list.setAdapter(adapter);
