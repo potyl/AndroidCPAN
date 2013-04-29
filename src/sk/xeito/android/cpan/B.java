@@ -12,4 +12,9 @@ public interface B {
 		 */
 		String feed_entry = "feed_entry";
 	}
+
+
+	public interface fragments {
+		String feed_list = "feed_list_fragment";
+	}
 }
