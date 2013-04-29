@@ -10,4 +10,9 @@ public class Utils {
 		String message = String.format(format, args);
 		Log.d(TAG, message);
 	}
+
+	public static void eprintf(Throwable e, String format, Object ... args) {
+		String message = String.format(format, args);
+		Log.d(TAG, message, e);
+	}
 }
